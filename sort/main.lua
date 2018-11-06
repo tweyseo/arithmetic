@@ -41,4 +41,21 @@ shellSort(arr)
 
 printTable(arr)
 
+-------------
+
+local heapSort = require("heapSort")
+local arr = {2,0,1,8,1,1,0,6}
+
+heapSort(arr)
+
+printTable(arr)
+
+-------------
+
+local mergeSort = require("mergeSort")
+local arr = {2,0,1,8,1,1,0,6}
+
+mergeSort(arr)
+
+printTable(arr)
 
