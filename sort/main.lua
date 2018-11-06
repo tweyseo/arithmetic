@@ -59,3 +59,12 @@ mergeSort(arr)
 
 printTable(arr)
 
+-------------
+
+local quickSort = require("quickSort")
+local arr = {2,0,1,8,1,1,0,6}
+
+quickSort(arr)
+
+printTable(arr)
+
