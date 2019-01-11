@@ -1,4 +1,3 @@
-local helper = require("helper")
 local floor = math.floor
 
 local tmp = {}
@@ -13,22 +12,22 @@ local function merge(arr, l, m, r)
             tmp[k] = arr[j]
             j = j + 1
         end
-        
+
         k = k + 1
     end
-    
+
     while i <= m do
         tmp[k] = arr[i]
         k = k + 1
         i = i + 1
     end
-    
+
     while j <= r do
         tmp[k] = arr[j]
         k = k + 1
         j = j + 1
     end
-    
+
     k = 1
     while l <= r do
         arr[l] = tmp[k]

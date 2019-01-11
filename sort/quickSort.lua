@@ -8,7 +8,7 @@ local function partSort(arr, l, r)
         while l < r and arr[r] >= key do r = r - 1 end
         helper.swap(arr, l , r)
     end
-    
+
     helper.swap(arr, r, index)
 
     return r

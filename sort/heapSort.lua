@@ -17,7 +17,7 @@ return function(arr)
     for i = floor((#arr - 2) / 2) + 1, 1, -1 do
         adjust(arr, #arr, i)
     end
-    
+
     for i = #arr, 1, -1 do
         helper.swap(arr, 1, i)
         adjust(arr, i - 1, 1)

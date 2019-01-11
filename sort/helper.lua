@@ -1,5 +1,3 @@
-local ipairs = ipairs
-
 local helper = {}
 
 function helper.swap(arr, a, b)
